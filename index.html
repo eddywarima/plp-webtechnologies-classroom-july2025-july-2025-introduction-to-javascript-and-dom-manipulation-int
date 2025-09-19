@@ -1,17 +1,46 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 20px;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Fundamentals Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>JavaScript Practice Project</h1>
+  
+  <!-- Part 1: Input & Decision -->
+  <section>
+    <h2>Part 1: Variables & Conditionals</h2>
+    <input type="number" id="ageInput" placeholder="Enter your age">
+    <button id="checkAgeBtn">Check Eligibility</button>
+    <p id="ageResult"></p>
+  </section>
 
-h1 {
-  color: darkblue;
-}
+  <!-- Part 2: Functions -->
+  <section>
+    <h2>Part 2: Functions</h2>
+    <button id="calcTotalBtn">Calculate Cart Total</button>
+    <p id="cartResult"></p>
+  </section>
 
-section {
-  margin-bottom: 30px;
-}
+  <!-- Part 3: Loops -->
+  <section>
+    <h2>Part 3: Loops</h2>
+    <button id="countdownBtn">Start Countdown</button>
+    <ul id="countdownList"></ul>
+  </section>
 
-.highlight {
-  background-color: yellow;
-  font-weight: bold;
-}
+  <!-- Part 4: DOM -->
+  <section>
+    <h2>Part 4: DOM Manipulation</h2>
+    <button id="toggleBtn">Toggle Highlight</button>
+    <p id="toggleText">Click the button to highlight me!</p>
+
+    <button id="addItemBtn">Add List Item</button>
+    <ul id="dynamicList"></ul>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
